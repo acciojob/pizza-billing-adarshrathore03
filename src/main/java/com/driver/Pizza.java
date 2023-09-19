@@ -31,7 +31,7 @@ public class Pizza {
 
     }
 
-    public int getBillPrice(){
+    public int getPrice(){
         return this.billPrice;
     }
 
