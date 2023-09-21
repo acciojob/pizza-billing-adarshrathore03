@@ -29,6 +29,7 @@ public class Pizza {
 
         this.bill = "Base Price Of The Pizza: "+this.billPrice+"\n";
 
+
     }
 
     public int getPrice(){
@@ -72,7 +73,7 @@ public class Pizza {
                 this.bill = this.bill+"Paperbag Added: "+this.paperBagPrice+"\n";
             }
 
-            this.bill = this.bill+"Total Price: "+this.billPrice;
+            this.bill = this.bill+"Total Price: "+this.billPrice+"\n";
             isBillGenerated = true;
         }
         return this.bill;
